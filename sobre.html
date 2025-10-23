@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/sobre.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="navbar-brand">
+    <a class="navbar-sonic" href="#" id="logoPanini"> <img src="img/soniclogo.png" class="sonicImg" alt=""></a>
+    </div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Login
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login.html">Fazer Login</a></li>
+           
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+        <button type="button" class="btn btn-primary">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Sobre Nós -->
+ <div class="container-fluid p-4 text-center">
+<h1 id="titulo">Sobre Nossa Loja</h1>
+<p>A Games Classic originada de Muriaé, é sua loja exclusiva de consoles e video-jogos de diversas gerações, possuindo exclusivos, multiplataforma, PC, consoles portátil e etc. Apesar de recém criada, reúne um catálogo enorme de jogos e consoles, desde os mais antigos como Playstation 2 com God of War até o Xbox com Gears of War. Nossos planos são de expandir para grandes metrópoles e outros estados do Brasil, por isso, o nosso público e clientes são essenciais nesta longa jornada.
+  Estamos sempre abertos a sugestões e críticas construtivas para melhorar cada vez mais nossos serviços e produtos. Venha fazer parte dessa história conosco! Lembrando que estamos presentes nas redes sociais como Instagram, X (antigo Twitter), Whatsapp e até no Telegram, caso queira saber mais novidades.</p>
+  <h3 id="titulo2" class="color-blue">Parcerias</h3>
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/game_pass.webp" class="gameImg" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/epic_games.png" class="gameImg" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/steam.jpg" class="gameImg" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+<div class="container">
+  <div class="row justify-content-center align-items-center vh-100">
+    <div class="col-auto">
+      <div class="card" style="width: 36rem; height: 40rem;">
+  <img src="img/Loja_Fisica.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Endereço: Rua Exemplo, 123 - Muriaé, MG</p>
+    <p class="card-text">Na Avenida São Paulo, 456 - Muriaé, MG</p>
+    <p class="card-text">CEP: 65432189</p>
+    <p class="card-text">Horários de Funcionamento: Segunda à Sexta: 09:00-11:30; 13:00-16:00; </p>
+    <p class="card-text">Sábado: 09:00-11:30; 13:00-16:00; </p>
+    <a href="#" class="btn btn-primary">Procurar no Maps</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
