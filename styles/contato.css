@@ -1,0 +1,51 @@
+/* .container-fluid {
+    background-color: rgb(46, 168, 168);
+} */
+body {
+  background-image: url('https://th.bing.com/th/id/R.8df2063a2caff04a54dc44985dabcdc1?rik=H%2f1ST2SjnrCOpg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-rbFpumXutaY%2fUlNH_7fqlFI%2fAAAAAAAAAB4%2f9QtN2n7Qr2Q%2fs1600%2fbadasses_in_video_games_by_pacduck-d384d2n.jpg&ehk=VwilKINcz98Qxx8mMG0rHdgXCSW8lUffM8e6kYHEwPc%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+  background-attachment: fixed; /* Faz o fundo ficar fixo ao rolar a página */
+}
+.containerPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario {
+    background-color: rgb(187, 187, 187);
+    border-radius: 20px;
+    padding: 30px;
+    width: 440px;
+margin-top: 60px;
+}
+.biohazard {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#nome{
+    margin-bottom: 15px;
+    width: 100%;
+}
+#email{
+margin-bottom: 15px;
+    width: 100%;
+}
+ #assunto{
+margin-bottom: 15px;
+    width: 100%;
+ }
+ #mensagem{
+margin-bottom: 15px;
+    width: 100%;
+ }
+ .sonicImg{
+   width:100%;
+   height: 150px;
+   object-fit: contain;
+}
