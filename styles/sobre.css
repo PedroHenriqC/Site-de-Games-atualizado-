@@ -3,16 +3,9 @@
    height: 150px;
    object-fit: contain;
 }
-
-.navbar {
-    
-}
  .container-fluid2 {
     background-color: rgb(224, 235, 240);
  }
-
-    
-
 #color-dark {
     color: aqua
 }
@@ -86,6 +79,7 @@
   object-position: center;   /* centraliza a imagem */
   transition: transform 0.4s ease-in-out;
 }
+/* atualizar pasta */
 
 
 
