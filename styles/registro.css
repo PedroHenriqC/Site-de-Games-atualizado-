@@ -8,7 +8,10 @@ body {
   border-radius: 10px;
   background-color: #fff;
 }
-
+.form-control.barra-pesquisa{
+   width: 400px; /* ou 100%, se quiser ocupar toda a linha */
+  max-width: 100%;
+}
 label {
   font-weight: 500;
 }

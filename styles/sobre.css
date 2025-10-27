@@ -3,6 +3,10 @@
    height: 150px;
    object-fit: contain;
 }
+.form-control.barra-pesquisa{
+   width: 400px; /* ou 100%, se quiser ocupar toda a linha */
+  max-width: 100%;
+}
  .container-fluid2 {
     background-color: rgb(224, 235, 240);
  }

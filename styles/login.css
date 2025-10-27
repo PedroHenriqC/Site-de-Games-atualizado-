@@ -1,3 +1,7 @@
+.form-control.barra-pesquisa{
+   width: 400px; /* ou 100%, se quiser ocupar toda a linha */
+  max-width: 100%;
+}
 .btn-color {
   background-color: #dc3545; /* Vermelho Bootstrap */
   color: white;

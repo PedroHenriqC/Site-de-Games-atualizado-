@@ -3,6 +3,10 @@
    height: 150px;
    object-fit: contain;
 }
+.form-control.barra-pesquisa{
+   width: 400px; /* ou 100%, se quiser ocupar toda a linha */
+  max-width: 100%;
+}
 body {
   background-image: url('https://i.pinimg.com/736x/9b/11/2a/9b112aa30bc1ba530076bf0110dc5f3a.jpg');
   background-size: cover; /* Faz a imagem cobrir toda a tela */
@@ -68,6 +72,17 @@ ul li{
   max-width: 1200px
  } */
  /* atualizar a pasta */
+ 
+ .botoes{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 10px;
+ }
+  .redes2{
+  display: flex;
+  justify-content: center;
+ }
 
 
 
